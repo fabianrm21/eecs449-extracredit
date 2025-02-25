@@ -5,7 +5,11 @@ python3 -m venv ./.env
 source .env/bin/activate
 
 pip install -r requirements.txt
+ollama run llama3.2
 ollama pull deepseek
 ollama pull qwen-vl
 ollama pull whisper
+pip install --upgrade ollama langchain
+pip install -U langchain-ollama
+
 
