@@ -1,6 +1,10 @@
 # eecs449-extracredit
-To setup, run:
+To clone this repository, run: 
+```
+git clone https://github.com/fabianrm21/eecs449-extracredit.git .
+```
 
+To setup, run:
 ```
 chmod +x setup.sh
 ./setup.sh
@@ -12,7 +16,6 @@ python3 game.py "<promtp>" "<image_url>"
 ```
 
 For help, run:
-
 ```
 python3 game.py
 ```
